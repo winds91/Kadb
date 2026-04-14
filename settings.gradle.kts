@@ -1,17 +1,20 @@
 pluginManagement {
     repositories {
-        mavenLocal()
+        maven { url = uri("https://maven.aliyun.com/repository/google") }
+        maven { url = uri("https://maven.aliyun.com/repository/gradle-plugin") }
+        maven { url = uri("https://maven.aliyun.com/repository/public") }
+        maven { url = uri("https://maven.aliyun.com/repository/jcenter") }
         google()
-        mavenCentral()
-        gradlePluginPortal()
     }
 }
 
 dependencyResolutionManagement {
     repositories {
-        mavenLocal()
+        maven { url = uri("https://maven.aliyun.com/repository/google") }
+        maven { url = uri("https://maven.aliyun.com/repository/gradle-plugin") }
+        maven { url = uri("https://maven.aliyun.com/repository/public") }
+        maven { url = uri("https://maven.aliyun.com/repository/jcenter") }
         google()
-        mavenCentral()
         maven("https://jitpack.io")
     }
 }

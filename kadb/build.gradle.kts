@@ -15,7 +15,7 @@ kotlin {
     android {
         namespace = "com.flyfishxu.kadb"
         compileSdk = 36
-        minSdk = 23
+        minSdk = 15
 
         withJava()
     }
